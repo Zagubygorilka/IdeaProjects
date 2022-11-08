@@ -89,13 +89,10 @@
 // let a = +prompt("enter number")
 // let b = +prompt("enter number")
 //
-// if (a<b){
+// if (a<=b){
 //     console.log(b);
 // }
 // else if (a>b){
-//     console.log(a);
-// }
-// else if (a=b){
 //     console.log(a);
 // }
 // else {
