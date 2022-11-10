@@ -17,7 +17,7 @@
 // до якої четверті години попадає число (в першу, другу, третю или четверту частину години).
 
 // let time = +prompt("Ведіть число")
-// if (time<15){
+// if (time>=0 && time<15){
 //     console.log("first");
 // }
 // else if (time>14 && time<30){
@@ -38,7 +38,7 @@
 // місяця потрапляє це число (у першу, другу чи третю).
 
 // let day = +prompt("enter number")
-// if (day<11){
+// if (day>0 && day<11){
 //     console.log("first");
 // }
 // else if (day>10 && day<20){
