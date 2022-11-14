@@ -27,12 +27,12 @@
 // побудувати структуру по шаблону
 // Масив:
 
-    let listOfItems = ['html', 'css', 'javascript', 'mysql', 'mongodb', 'react', 'angular', 'node.js'];
-document.write(`<ul>`)
-for (const listOfItem of listOfItems){
-    document.write(`<li>${listOfItem}</li>`)
-}
-document.write(`</ul>`)
+//     let listOfItems = ['html', 'css', 'javascript', 'mysql', 'mongodb', 'react', 'angular', 'node.js'];
+// document.write(`<ul>`)
+// for (const listOfItem of listOfItems){
+//     document.write(`<li>${listOfItem}</li>`)
+// }
+// document.write(`</ul>`)
 
 
 //
@@ -120,3 +120,65 @@ document.write(`</ul>`)
 //             ${user.age}
 //             ${user.status}</h3>`)
 // }
+
+// - є масив [2,17,13,6,22,31,45,66,100,-18] :
+// 1. перебрати його циклом while
+//     2. перебрати його циклом for
+//     3. перебрати циклом while та вивести  числа тільки з непарним індексом
+// 4. перебрати циклом for та вивести  числа тільки з непарним індексом
+// 5. перебрати циклом while та вивести  числа тільки парні  значення
+// 6. перебрати циклом for та вивести  числа тільки парні  значення
+// 7. замінити кожне число кратне 3 на слово "okten"
+// 8. вивести масив в зворотньому порядку.
+// 9. всі попередні завдання (окрім 8), але в зворотньому циклі (с заду на перед)
+
+// let arr = [2,17,13,6,22,31,45,66,100,-18]
+
+// i=0
+// while (i<arr.length){
+//     console.log(arr[i])
+//     i++
+// }
+//
+// for (let i = 0; i < arr.length; i++) {
+//     const arrElement = arr[i];
+//     console.log(arrElement);
+// }
+
+// i=0
+// while (i<arr.length)
+// {if (i%2 !== 0 )
+//      console.log(arr[i])
+//     i++
+// }
+
+// for (let i = 0; i < arr.length; i++) {
+//     const arrElement = arr[i];
+//     if (i%2 !== 0){
+//         console.log(arrElement);
+//     }
+// }
+
+// i=0
+// while (i<arr.length){
+//     if (arr[i]%2 === 0){
+//         console.log(arr[i]);
+//     }
+//     i++
+// }
+//
+// for (let j = 0; j < arr.length; j++) {
+//     const arrElement = arr[j];
+//     if (arr[j]%2 === 0){
+//         console.log(arrElement);
+//     }
+// }
+
+// for (let i = 0; i < arr.length; i++) {
+//    if (arr[i]%3 === 0){
+//     arr[i]='okten'
+//        console.log(arr);
+//    }
+// }
+
+
