@@ -8,7 +8,7 @@
 // - створити функцію яка обчислює та повертає площу кола з радіусом r
 //
 // function Kolo(r){
-//     let resalt = 3.14 * r * r
+//     let resalt = 3.14 * r ** 2
 //     return Plosha
 // }
 
