@@ -147,8 +147,6 @@
 //     }
 // }
 
-// ------------------
-
 //     - створити блок,
 //     - додати йому класи wrap, collapse, alpha, beta
 // - додати стилі(довільні значення) : колір фону, колір тексту, розмір тексту
@@ -199,13 +197,61 @@
 //     {title: 'Frontend', monthDuration: 4}
 // ];
 //
-// За допомоги скріпта для кожного елементу масиву зробити <div class='item'> ,  в якому буде <h1 class='heading'>  з title  елементу, та <p class='description'> з monthDuration елементу.
+// За допомоги скріпта для кожного елементу масиву зробити <div class='item'> ,
+// в якому буде <h1 class='heading'>  з title  елементу, та <p class='description'> з monthDuration елементу.
 //     Завдання робити через цикли.
 
-//     - Створити довільний елемент з id = text.  Використовуючи JavaScript, зробіть так, щоб при натисканні на кнопку зникав елемент з id="text".
-//     - створити інпут який приймає вік людини та кнопку яка підтверджує дію.При натисканні на кнопку зчитати інформацію з інпуту та перевірити вік чи меньше він ніж 18, та повідомити про це користувача
+// for (const coursesAndDurationArrayElement of coursesAndDurationArray) {
+//     const div = document.createElement('div')
+//     div.className = 'item'
+//     document.body.append(div)
 //
+//     const h1 = document.createElement('h1')
+//     h1.className = 'heading'
+//     h1.innerText = coursesAndDurationArrayElement.title
+//     div.append(h1)
+//
+//     const p = document.createElement('p')
+//     p.className = 'description'
+//     p.innerText = coursesAndDurationArrayElement.monthDuration
+//     div.append(p)
+// }
+
+//     - Створити довільний елемент з id = text.  Використовуючи JavaScript, зробіть так, щоб при натисканні на кнопку
+//     зникав елемент з id="text".
+
+// const mainDiv = document.createElement('div')
+// mainDiv.innerText = 'start'
+// mainDiv.setAttribute('id','text')
+// document.body.append(mainDiv)
+//
+// const click = document.createElement('button')
+// click.innerText = 'click'
+// click.onclick = function (e){
+// mainDiv.style.display = 'none'
+// }
+// document.body.append(click)
+
+//     - створити інпут який приймає вік людини та кнопку яка підтверджує дію.
+//     При натисканні на кнопку зчитати інформацію з інпуту та перевірити вік чи меньше він ніж 18,
+//     та повідомити про це користувача
+
+// const enterYear = document.createElement('input')
+// const button = document.createElement('button')
+// button.innerText = 'click'
+// button.onclick = function (ev){
+//     enterYear.oninput
+//     if (enterYear.value < 18){
+//         alert('no')
+//             }
+//     else if (enterYear.value >= 18){
+//         alert('yes')
+//     }
+// }
+// document.body.append(enterYear, button)
+
 //
 // *** Створити 3 инпута та кнопку. Один визначає кількість рядків, другий - кількість ячеєк, третій вмиіст ячеєк.
 //     При натисканні кнопки, вся ця інформація зчитується і формується табличка, з відповідним вмістом.
 // (Додатковачастина для завдання)
+
