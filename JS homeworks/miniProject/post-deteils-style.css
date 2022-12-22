@@ -1,0 +1,22 @@
+.infoPost{
+    display: grid;
+    grid-template-columns: auto;
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 10px 10px;
+    padding: 10px;
+    background-color: bisque;
+}
+
+.container2{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 20px;
+    text-align: center;
+    padding: 10px;
+    margin: 10px;
+    }
+
+.infoComments{
+    background-color: antiquewhite;
+}
